@@ -16,23 +16,33 @@ body {
 
 .header-container, .header-left {
   display: flex;
-  gap: 1em;
+  gap: 1rem;
 }
 
 .header-container {
   justify-content: space-between;
 }
 
-#main-content {
+#main-content, #mob-content {
   display: flex;
   flex-wrap: wrap;
-  gap: 7em;
   justify-content: center;
+  gap: 7rem;
 }
 
 .card {
   display: flex;
   align-items: center;
-  gap: 3em;
+  gap: 3rem;
   max-width: 500px;
+}
+
+.mob-details {
+  max-width: 400px;
+}
+
+.mob-title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }

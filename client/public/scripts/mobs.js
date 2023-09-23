@@ -1,8 +1,8 @@
 
 
 const renderMobs = async () => {
-    const response = await fetch('/mobs')
-    const data = await response.json()
+    const response = await fetch('/mobs');
+    const data = await response.json();
     
     const mainContent = document.getElementById('main-content');
     if(data) {

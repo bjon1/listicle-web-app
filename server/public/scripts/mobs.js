@@ -1,8 +1,8 @@
 
 
 const renderMobs = async () => {
-    const response = await fetch('/mobs')
-    const data = await response.json()
+    const response = await fetch('/mobs');
+    const data = await response.json();
     
     const mainContent = document.getElementById('main-content');
     if(data) {
@@ -13,7 +13,10 @@ const renderMobs = async () => {
             /* image */
             const leftContainer = document.createElement('div')
             leftContainer.classList.add('left-container')
-            leftContainer.style.backgroundImage = `url(${mob.image})`
+            const img = document.createElement("img");
+            img.src = `${mob.image}`;
+            img.className = "mob-image";
+            leftContainer.appendChild(img);
 
             /*name, description, Read More */
             const rightContainer = document.createElement('div')
