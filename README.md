@@ -1,10 +1,10 @@
-# WEB103 Project 1 - *Listicle Part 1*
+# WEB103 Project 2 - Minecraft Mobs
 
-Submitted by: **Benjamin Jon**
+Submitted by: Benjamin Jon
 
-About this web app: **This app provides a list of minecraft mobs including their name, a picture of them, and a description**
+About this web app: This web app displays a list of minecraft mobs along with their descriptions
 
-Time spent: **4** hours
+Time spent: **3** hours
 
 ## Required Features
 
@@ -12,25 +12,26 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [X] **The web app displays a title**
-- [X] **The web app displays at least five list items, each with at least three attributes (such as title, text, and image url)**
-- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [X] **The web app serves an appropriate 404 page when no matching route is defined**
-- [X] **The web app is appropriately styled using Picocss**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+- [X] **The PostgreSQL database includes a table that matches the data displayed in the web app**
+  - [X] **NOTE: Your GIF or a screenshot added to the README must include a view of your Railway database that shows the contents of the table used by your app**
 
 The following **optional** features are implemented:
 
-- [X] The web app displays items in a unique format, such as cards rather than lists
+- [ ] The user can search for items with a specific attribute
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/kiH9ELz.gif' title='Video Walkthrough of Web App' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with LICEcap
-https://www.cockos.com/licecap/
+
 
 ## License
 
