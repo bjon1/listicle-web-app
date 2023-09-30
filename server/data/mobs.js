@@ -1,4 +1,4 @@
-const mobs = [
+export const mobs = [
     {
         "id": 1,
         "name": "Creeper",
@@ -35,5 +35,3 @@ const mobs = [
         "health": 12
     }
 ]
-
-export default mobs;

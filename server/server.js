@@ -1,4 +1,5 @@
 import express from 'express';
+import './config/dotenv.js';
 import mobsRouter from './routes/mobs.js';
 
 const PORT = process.env.PORT || 3001;
